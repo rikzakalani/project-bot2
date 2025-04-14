@@ -1,0 +1,24 @@
+{
+    "name": "telegram-crypto-bot",
+    "version": "1.0.0",
+    "description": "Bot Telegram untuk mengambil data koin baru menggunakan API, Web Scraping, dan RSS Feeds",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0",
+        "dotenv": "^16.0.1",
+        "node-cron": "^3.0.0",
+        "node-telegram-bot-api": "^0.56.0",
+        "puppeteer": "^24.6.1",
+        "rss-parser": "^3.10.0",
+        "sqlite3": "^5.0.2"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "author": "",
+    "license": "ISC"
+}
